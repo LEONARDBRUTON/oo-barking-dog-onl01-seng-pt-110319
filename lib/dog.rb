@@ -10,7 +10,8 @@ class Dog
    this_dog_name = dog_name
  end
  
- def dog_name 
+ def name 
+   this_dog_name
   
   
   
