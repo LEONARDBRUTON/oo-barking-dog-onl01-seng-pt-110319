@@ -5,6 +5,7 @@
 
 
 class Dog
+  attr_accessor
   
  def name=(dog_name)
    @this_dog_name = dog_name
@@ -14,12 +15,8 @@ class Dog
    @this_dog_name
  end
   
- def bark=(dogs_bark)
-   @this_dogs_bark = dogs_bark
-   end
    
   def bark
-    @this_dogs_bark
     puts "Woof!"
 end
 end
