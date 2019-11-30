@@ -19,12 +19,12 @@ class Dog
  end
  fido.bark 
   
-
+end
   
   
   fido = Dog.new
 fido.name = "Fido"
-end
+
 fido.name
 
 
