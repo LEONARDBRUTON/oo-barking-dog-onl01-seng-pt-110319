@@ -17,7 +17,7 @@ class Dog
  def bark
    puts "Woof!"
  end
-  
+ fido.bark 
   
   end
   
@@ -27,5 +27,4 @@ fido.name = "Fido"
 
 fido.name
 
-fido.bark
 
