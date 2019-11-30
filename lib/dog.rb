@@ -5,7 +5,6 @@
 
 
 class Dog
-  attr_writer :bark
   
  def name=(dog_name)
    @this_dog_name = dog_name
