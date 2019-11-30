@@ -5,7 +5,7 @@
 
 
 class Dog
-  attr_accessor :bark, :name
+  attr_accessor :bark
   
  def name=(dog_name)
    @this_dog_name = dog_name
